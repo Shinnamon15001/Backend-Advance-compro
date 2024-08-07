@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "prettier --write *.js"
+    "start": "node CRUDBook.js",
+    "test": "prettier --write *.js",
+    "dev": "nodemon CRUDBOOK.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "nodemon": "^3.1.4",
     "prettier": "^3.3.3"
   },
   "dependencies": {
