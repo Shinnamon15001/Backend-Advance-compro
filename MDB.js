@@ -4,7 +4,7 @@ const bodyParser = require("body-parser");
 
 // MongoDB connection (ensure you replace <dburl> with your actual MongoDB URI)
 mongoose.connect(
-    "<mongodb-connection-string>",
+    "mongodb://admin:XTAiln75831@node66902-env-3579406.proen.app.ruk-com.cloud:11586",
     {
         useNewUrlParser: true,
         useUnifiedTopology: true,
